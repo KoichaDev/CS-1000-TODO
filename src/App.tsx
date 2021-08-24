@@ -1,7 +1,7 @@
 import { useState, useContext } from 'react';
 import Todos from './components/Todos/Todos';
 import GlobalContext from './store/global-context';
-import NavBar from './components/UI/NavBar';
+import NavBar from './components/Layouts/NavBar';
 
 const App = () => {
   const [style, setStyle] = useState<object>({});
