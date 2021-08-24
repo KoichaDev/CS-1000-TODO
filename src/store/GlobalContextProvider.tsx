@@ -1,11 +1,13 @@
 import React from 'react';
 import GlobalContext from './global-context';
-import DarkThemeContext from './Themes/dark-theme';
+import LightTheme from './Themes/light-theme';
+import DarkTheme from './Themes/dark-theme';
 
 const GlobalContextProvider: React.FC = ({ children }) => {
   const globalContext = {
     themes: {
-      darkTheme: DarkThemeContext,
+      lightTheme: LightTheme,
+      darkTheme: DarkTheme,
     },
   };
 
