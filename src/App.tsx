@@ -1,7 +1,8 @@
-import React, { useState, useContext } from 'react';
+import { useState, useContext } from 'react';
 import Todos from './components/Todos/Todos';
 import Header from './components/UI/Header';
 import GlobalContext from './store/global-context';
+import Input from './components/UI/Input';
 
 const App = () => {
   const [style, setStyle] = useState<object>({});
@@ -19,7 +20,7 @@ const App = () => {
           style: style,
           onClick: headerHandler,
         }}>
-        asdsad
+        <Input label={'search-field'} input={{ type: 'text', id: 'search-field', className: '' }} />
       </Header>
       <Todos />
     </>
