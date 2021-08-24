@@ -1,23 +1,6 @@
-import React from 'react';
+import InterfaceTheme from './interface-theme';
 
-interface LightTheme {
-  color: {
-    primary: {
-      primary: string;
-      secondary: string;
-      tertiary: string;
-      quaternary: string;
-    };
-    secondary: {
-      primary: string;
-      secondary: string;
-      tertiary: string;
-      quaternary: string;
-    };
-  };
-}
-
-const LightThemeContext: LightTheme = {
+const LightThemeContext: InterfaceTheme = {
   color: {
     primary: {
       primary: '#005A9E',

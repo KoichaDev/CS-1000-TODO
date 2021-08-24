@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 3.5em;
+
+  .navbar__brand {
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  label {
+    display: none;
+  }
+
+  .navbar__input {
+    display: block;
+    padding-left: 8px;
+    width: 30%;
+    max-width: 100%;
+  }
+}

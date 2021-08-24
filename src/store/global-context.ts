@@ -4,8 +4,8 @@ import DarkTheme from './Themes/dark-theme';
 
 const GlobalContext = React.createContext({
   themes: {
-    lightTheme: LightTheme,
-    darkTheme: DarkTheme,
+    light: LightTheme,
+    dark: DarkTheme,
   },
 });
 
