@@ -31,7 +31,7 @@ const NavBar: React.FC = () => {
   return (
     <Header>
       <nav className={classes.navbar} style={style}>
-        <a href='#' className={classes['navbar__brand']} style={style}>
+        <a href='/' aria-label='Go to your todo homepage' className={classes['navbar__brand']} style={style}>
           ToDo
         </a>
         <Input
