@@ -10,18 +10,11 @@ const App = () => {
   const darkThemeCtx = useContext(GlobalContext);
 
   const headerHandler = () => {
-    setStyle(darkThemeCtx.themes.darkTheme);
+    // setStyle(darkThemeCtx.themes.darkTheme);
   };
 
   return (
     <>
-      <Header
-        header={{
-          style: style,
-          onClick: headerHandler,
-        }}>
-        <Input label={'search-field'} input={{ type: 'text', id: 'search-field', className: '' }} />
-      </Header>
       <Todos />
     </>
   );
